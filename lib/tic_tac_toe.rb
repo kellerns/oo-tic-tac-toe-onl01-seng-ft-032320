@@ -44,7 +44,7 @@ class TicTacToe
     
   def valid_move?(input)
     num = input.to_i
-    if num >= 0 && num <= 9
+    if num >= 0 && num <= @board.length-1
       valid_number = num
     else
       false
