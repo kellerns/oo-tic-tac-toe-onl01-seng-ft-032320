@@ -46,15 +46,15 @@ class TicTacToe
     num = input_to_index(input)
     if num >= 0 && num <= 8
       valid_number = num
-    
-    else
-      false
-    end
     if @board[valid_number] == "X" || @board[valid_number] == "O"
       false
     else
       true
     end
+    else
+      false
+    end
+    
   end
     
   def turn(board)
