@@ -47,7 +47,7 @@ class TicTacToe
     if num >= 0 && num <= 8
       valid_number = num
         if @board[valid_number] == "X" || @board[valid_number] == "O"
-          true
+          false
         else
           false
         end
