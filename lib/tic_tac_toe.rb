@@ -46,6 +46,7 @@ class TicTacToe
     num = input_to_index(input)
     if num >= 0 && num <= 8
       valid_number = num
+    
     else
       false
     end
