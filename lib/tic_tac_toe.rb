@@ -49,7 +49,7 @@ class TicTacToe
         if @board[valid_number] == "X" || @board[valid_number] == "O"
           false
         else
-          false
+          true
         end
     else
       false
